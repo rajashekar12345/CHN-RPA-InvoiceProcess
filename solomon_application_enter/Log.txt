@@ -1,0 +1,366 @@
+2021-04-10 11:16:43.9419|INFO|techforcerpa.Program|Process Started
+2021-04-10 11:16:46.6109|INFO|techforcerpa.Program|Query executed successfully
+2021-04-10 11:16:47.6450|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:16:47.7232|INFO|techforcerpa.Program|1
+2021-04-10 11:16:47.7626|INFO|techforcerpa.Program|[
+  [
+    "12-2021"
+  ]
+]
+2021-04-10 11:16:52.7768|INFO|techforcerpa.Program|wait 5
+2021-04-10 11:16:52.8237|INFO|techforcerpa.Program|1
+2021-04-10 11:16:53.1333|INFO|techforcerpa.Program|vision Run, "C:\\Users\\citruseworker1\\Desktop\\Solomon.rdp"
+2021-04-10 11:17:11.1742|INFO|techforcerpa.Program|wait 18
+2021-04-10 11:17:13.2089|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\44aa91b0-988a-11eb-89d1-c3ed030e9b8a.png
+2021-04-10 11:17:18.2470|INFO|techforcerpa.Program|wait 5
+2021-04-10 11:17:18.3710|INFO|techforcerpa.Program|vision Send, #s
+2021-04-10 11:17:20.3793|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:17:20.3793|INFO|techforcerpa.Program|Executing vision program
+2021-04-10 11:17:24.3981|INFO|techforcerpa.Program|vision Send, {Enter}
+2021-04-10 11:17:34.4217|INFO|techforcerpa.Program|wait 10
+2021-04-10 11:17:44.4425|INFO|techforcerpa.Program|wait 10
+2021-04-10 11:17:46.4808|INFO|techforcerpa.Program|application image not found
+2021-04-10 11:17:56.4998|INFO|techforcerpa.Program|wait 10
+2021-04-10 11:17:58.5086|INFO|techforcerpa.Program|application image not found
+2021-04-10 11:18:08.5178|INFO|techforcerpa.Program|wait 10
+2021-04-10 11:18:10.5467|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\1720c260-9884-11eb-ab7a-65902ed5e2b5.png
+2021-04-10 11:18:16.5526|INFO|techforcerpa.Program|wait 6
+2021-04-10 11:18:16.6955|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:18:16.8147|INFO|techforcerpa.Program|vision Send, {Down}
+2021-04-10 11:18:16.9182|INFO|techforcerpa.Program|vision Send, {Enter}
+2021-04-10 11:18:33.9456|INFO|techforcerpa.Program|wait 17
+2021-04-10 11:18:33.9509|INFO|techforcerpa.Program|click to voucher entry
+2021-04-10 11:18:33.9559|INFO|techforcerpa.Program|1
+2021-04-10 11:18:33.9779|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:18:33.9899|INFO|techforcerpa.Program|Query executed successfully
+2021-04-10 11:18:34.9993|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:18:35.0143|INFO|techforcerpa.Program|3
+2021-04-10 11:18:37.0333|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:18:37.0333|INFO|techforcerpa.Program|3
+2021-04-10 11:18:39.0529|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\aca89040-98db-11eb-ba6e-31d2f7857852.png
+2021-04-10 11:18:47.0687|INFO|techforcerpa.Program|wait 8
+2021-04-10 11:18:49.1043|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\9d206480-9855-11eb-84d5-db39cf270def.png
+2021-04-10 11:19:09.1204|INFO|techforcerpa.Program|wait 20
+2021-04-10 11:19:09.1360|INFO|techforcerpa.Program|800
+2021-04-10 11:19:09.1360|INFO|techforcerpa.Program|{"tableData":[],"data":[{"fieldName":"per_to_post","fieldValue":"12-2021","splitatexclude":false,"$hashKey":"object:682"},{"fieldName":"Monthly_invoice","fieldValue":[{"fieldName":"MONTHLY INVOICE","fieldValue":""},{"fieldName":"INVOICE","fieldValue":""},{"fieldName":"Name","fieldValue":"","$hashKey":"object:683"},{"fieldName":"Service Month","fieldValue":"Nov. 2019"},{"fieldName":"Address","fieldValue":"401 NW 2 Ave,"},{"fieldName":"Invoice No.","fieldValue":"9492","$hashKey":"object:684"},{"fieldName":"City","fieldValue":"Miami,"},{"fieldName":"State","fieldValue":"FL"},{"fieldName":"ZIP","fieldValue":"33128"},{"fieldName":"Phone","fieldValue":"305-455-0363\\n 1 PEER Services ae\\nPEER Training"},{"fieldName":"Units","fieldValue":""}],"splitatexclude":true},{"fieldName":"Total","fieldValue":"51","splitatexclude":false,"$hashKey":"object:685"},{"fieldName":"Date","fieldValue":"08/02/2021","splitatexclude":false,"$hashKey":"object:686"},{"fieldName":"Vendor_id","fieldValue":"TVSO","splitatexclude":false,"$hashKey":"object:687"},{"fieldName":"G/L_Acct","fieldValue":"6036","splitatexclude":false,"$hashKey":"object:694"},{"fieldName":"Project","fieldValue":"0","splitatexclude":false,"$hashKey":"object:695"},{"fieldName":"Sub_acct","fieldValue":"1705-038-14-1","splitatexclude":false,"$hashKey":"object:696"},{"fieldName":"task","fieldValue":"0","splitatexclude":false,"$hashKey":"object:697"},{"fieldName":"Description","fieldValue":"Nov service","splitatexclude":false,"$hashKey":"object:698"}]}
+2021-04-10 11:19:11.1491|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:19:11.1594|INFO|techforcerpa.Program|{"tableData":[],"data":[{"fieldName":"per_to_post","fieldValue":"12-2021","splitatexclude":false,"$hashKey":"object:682"},{"fieldName":"Monthly_invoice","fieldValue":[{"fieldName":"MONTHLY INVOICE","fieldValue":""},{"fieldName":"INVOICE","fieldValue":""},{"fieldName":"Name","fieldValue":"","$hashKey":"object:683"},{"fieldName":"Service Month","fieldValue":"Nov. 2019"},{"fieldName":"Address","fieldValue":"401 NW 2 Ave,"},{"fieldName":"Invoice No.","fieldValue":"9492","$hashKey":"object:684"},{"fieldName":"City","fieldValue":"Miami,"},{"fieldName":"State","fieldValue":"FL"},{"fieldName":"ZIP","fieldValue":"33128"},{"fieldName":"Phone","fieldValue":"305-455-0363\\n 1 PEER Services ae\\nPEER Training"},{"fieldName":"Units","fieldValue":""}],"splitatexclude":true},{"fieldName":"Total","fieldValue":"51","splitatexclude":false,"$hashKey":"object:685"},{"fieldName":"Date","fieldValue":"08/02/2021","splitatexclude":false,"$hashKey":"object:686"},{"fieldName":"Vendor_id","fieldValue":"TVSO","splitatexclude":false,"$hashKey":"object:687"},{"fieldName":"G/L_Acct","fieldValue":"6036","splitatexclude":false,"$hashKey":"object:694"},{"fieldName":"Project","fieldValue":"0","splitatexclude":false,"$hashKey":"object:695"},{"fieldName":"Sub_acct","fieldValue":"1705-038-14-1","splitatexclude":false,"$hashKey":"object:696"},{"fieldName":"task","fieldValue":"0","splitatexclude":false,"$hashKey":"object:697"},{"fieldName":"Description","fieldValue":"Nov service","splitatexclude":false,"$hashKey":"object:698"}]}.data
+2021-04-10 11:19:13.1735|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:19:13.1735|INFO|techforcerpa.Program|Executing javascript program
+2021-04-10 11:19:13.5598|INFO|techforcerpa.Program|! True
+2021-04-10 11:19:13.5658|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:19:13.5739|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:19:13.5779|INFO|techforcerpa.Program|Nov service      Description of the field
+2021-04-10 11:19:13.5829|INFO|techforcerpa.Program|9492
+2021-04-10 11:19:13.5869|INFO|techforcerpa.Program|9492
+2021-04-10 11:19:13.5909|INFO|techforcerpa.Program|51
+2021-04-10 11:19:13.5949|INFO|techforcerpa.Program|08/02/2021
+2021-04-10 11:19:13.5989|INFO|techforcerpa.Program|08/02/2021
+2021-04-10 11:19:13.6029|INFO|techforcerpa.Program|TVSO
+2021-04-10 11:19:13.6069|INFO|techforcerpa.Program|6036
+2021-04-10 11:19:13.6109|INFO|techforcerpa.Program|1705-038-14-1
+2021-04-10 11:19:13.6139|INFO|techforcerpa.Program|1705-038-14-1  sub account
+2021-04-10 11:19:13.6179|INFO|techforcerpa.Program|0  project
+2021-04-10 11:19:13.6219|INFO|techforcerpa.Program|Executing javascript program
+2021-04-10 11:19:14.0139|INFO|techforcerpa.Program|dates = dates.trim()
+2021-04-10 11:19:14.0249|INFO|techforcerpa.Program|08022021
+2021-04-10 11:19:24.0358|INFO|techforcerpa.Program|wait 10
+2021-04-10 11:19:26.0570|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\dd0970d0-9893-11eb-a1f3-3102ea52607f.png
+2021-04-10 11:19:29.0736|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:19:31.0856|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\1c49c4c0-98f8-11eb-a77f-2fe05c3adf23.png
+2021-04-10 11:19:34.1018|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:19:34.1072|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:19:34.3105|INFO|techforcerpa.Program|vision Send, `pertopost`
+2021-04-10 11:19:36.3222|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:19:36.4175|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:19:40.4363|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:19:42.4566|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\ed0a9c60-9885-11eb-bd30-6be30a5be868.png
+2021-04-10 11:19:44.4700|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:19:46.4923|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\0c4ec2e0-9886-11eb-a053-6f4a73399fb5.png
+2021-04-10 11:19:48.5041|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:19:48.6374|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:19:49.6559|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:19:49.7612|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:19:50.7686|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:19:50.8566|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:19:51.8900|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:19:51.9796|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:19:54.9867|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:19:55.1227|INFO|techforcerpa.Program|vision Send, `vendor_id`
+2021-04-10 11:19:58.1302|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:19:58.2543|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:19:59.2872|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:19:59.2872|INFO|techforcerpa.Program|Below is the vendor id
+2021-04-10 11:20:01.3101|INFO|techforcerpa.Program|Vendor id image not found
+2021-04-10 11:20:04.3251|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:20:04.4370|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:20:06.4565|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:20:06.5602|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:20:08.5880|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:20:08.6927|INFO|techforcerpa.Program|vision Send, ^a
+2021-04-10 11:20:08.7921|INFO|techforcerpa.Program|vision Send, {BackSpace}
+2021-04-10 11:20:10.8072|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:20:10.9906|INFO|techforcerpa.Program|vision Send, `Invoice_no`
+2021-04-10 11:20:12.0251|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:20:12.1576|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:20:12.1732|INFO|techforcerpa.Program|Below for loop is duplicate invoice popup
+2021-04-10 11:20:27.1896|INFO|techforcerpa.Program|wait 15
+2021-04-10 11:20:29.2114|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\a1bc7cb0-9867-11eb-8919-9dcb7bb3ca7d.png
+2021-04-10 11:20:32.2271|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:20:34.2764|INFO|techforcerpa.Program|screenshot C:\Users\citruseworker1\Desktop\ALL_FILES\Lessinvno\error1.png
+2021-04-10 11:20:40.2829|INFO|techforcerpa.Program|wait 6
+2021-04-10 11:20:40.2889|INFO|techforcerpa.Program|9492
+2021-04-10 11:20:41.8302|INFO|techforcerpa.Program|vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" " Invoice number is not valid" "Hi Odalis `, \n \n               Please find below duplicate invoice number while posting to Solomon  application  \n             \n         `Invoice_no``" "C:\Users\citruseworker1\Desktop\ALL_FILES\Lessinvno\error1.png" "`cc`" """,,hide
+2021-04-10 11:20:43.8486|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:20:43.8626|INFO|techforcerpa.Program|Deleted Successfully
+2021-04-10 11:20:43.8826|INFO|techforcerpa.Program|Create folder at C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Lessinvno and overwrite if exists
+2021-04-10 11:20:44.0076|INFO|techforcerpa.Program|vision Send, {Right}
+2021-04-10 11:20:44.1156|INFO|techforcerpa.Program|vision Send, {Enter}
+2021-04-10 11:20:46.1277|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:20:48.1441|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\09c7ec90-9868-11eb-8eaa-fbceeadea3d7.png
+2021-04-10 11:20:54.1753|INFO|techforcerpa.Program|wait 6
+2021-04-10 11:20:54.2633|INFO|techforcerpa.Program|vision Send, {Enter}
+2021-04-10 11:21:01.2834|INFO|techforcerpa.Program|wait 7
+2021-04-10 11:21:01.3926|INFO|techforcerpa.Program|API call to http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata with Content-Type:application/json
+2021-04-10 11:21:01.5101|INFO|techforcerpa.Program|{"message":"Record updated Successfully."}
+2021-04-10 11:21:03.5366|INFO|techforcerpa.Program|Invoice inside image not found
+2021-04-10 11:21:03.5478|INFO|techforcerpa.Program|801
+2021-04-10 11:21:03.5478|INFO|techforcerpa.Program|{"tableData":[],"data":[{"fieldName":"per_to_post","fieldValue":"12-2021","splitatexclude":false,"$hashKey":"object:686"},{"fieldName":"Monthly_invoice","fieldValue":[{"fieldName":"MONTHLY INVOICE","fieldValue":""},{"fieldName":"INVOICE","fieldValue":"."},{"fieldName":"Name","fieldValue":"","$hashKey":"object:687"},{"fieldName":"Service Month","fieldValue":"Feb. 2020"},{"fieldName":"Address","fieldValue":"401 NW 274 Ave."},{"fieldName":"Invoice No.","fieldValue":"ABCD1246","$hashKey":"object:688"},{"fieldName":"City","fieldValue":"Miami,"},{"fieldName":"State","fieldValue":"FL"},{"fieldName":"ZIP","fieldValue":"33128"},{"fieldName":"Phone","fieldValue":"305-455-0363\\n\\n 1 PEER Services \\n PEER Training"},{"fieldName":"Units","fieldValue":""}],"splitatexclude":true},{"fieldName":"Total","fieldValue":"7730","splitatexclude":false,"$hashKey":"object:689"},{"fieldName":"Date","fieldValue":"08/05/2001","splitatexclude":false,"$hashKey":"object:690"},{"fieldName":"Vendor_id","fieldValue":"TVSO","splitatexclude":false,"$hashKey":"object:691"},{"fieldName":"G/L_Acct","fieldValue":"4730","splitatexclude":false,"$hashKey":"object:698"},{"fieldName":"Project","fieldValue":"0","splitatexclude":false,"$hashKey":"object:699"},{"fieldName":"Sub_acct","fieldValue":"3102024031","splitatexclude":false,"$hashKey":"object:700"},{"fieldName":"task","fieldValue":"0","splitatexclude":false,"$hashKey":"object:701"},{"fieldName":"Description","fieldValue":"Feb service","splitatexclude":false,"$hashKey":"object:702"}]}
+2021-04-10 11:21:05.5602|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:21:05.5602|INFO|techforcerpa.Program|{"tableData":[],"data":[{"fieldName":"per_to_post","fieldValue":"12-2021","splitatexclude":false,"$hashKey":"object:686"},{"fieldName":"Monthly_invoice","fieldValue":[{"fieldName":"MONTHLY INVOICE","fieldValue":""},{"fieldName":"INVOICE","fieldValue":"."},{"fieldName":"Name","fieldValue":"","$hashKey":"object:687"},{"fieldName":"Service Month","fieldValue":"Feb. 2020"},{"fieldName":"Address","fieldValue":"401 NW 274 Ave."},{"fieldName":"Invoice No.","fieldValue":"ABCD1246","$hashKey":"object:688"},{"fieldName":"City","fieldValue":"Miami,"},{"fieldName":"State","fieldValue":"FL"},{"fieldName":"ZIP","fieldValue":"33128"},{"fieldName":"Phone","fieldValue":"305-455-0363\\n\\n 1 PEER Services \\n PEER Training"},{"fieldName":"Units","fieldValue":""}],"splitatexclude":true},{"fieldName":"Total","fieldValue":"7730","splitatexclude":false,"$hashKey":"object:689"},{"fieldName":"Date","fieldValue":"08/05/2001","splitatexclude":false,"$hashKey":"object:690"},{"fieldName":"Vendor_id","fieldValue":"TVSO","splitatexclude":false,"$hashKey":"object:691"},{"fieldName":"G/L_Acct","fieldValue":"4730","splitatexclude":false,"$hashKey":"object:698"},{"fieldName":"Project","fieldValue":"0","splitatexclude":false,"$hashKey":"object:699"},{"fieldName":"Sub_acct","fieldValue":"3102024031","splitatexclude":false,"$hashKey":"object:700"},{"fieldName":"task","fieldValue":"0","splitatexclude":false,"$hashKey":"object:701"},{"fieldName":"Description","fieldValue":"Feb service","splitatexclude":false,"$hashKey":"object:702"}]}.data
+2021-04-10 11:21:07.5733|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:21:07.5795|INFO|techforcerpa.Program|Executing javascript program
+2021-04-10 11:21:07.9490|INFO|techforcerpa.Program|! True
+2021-04-10 11:21:07.9550|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:21:07.9600|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:21:07.9640|INFO|techforcerpa.Program|Feb service      Description of the field
+2021-04-10 11:21:07.9680|INFO|techforcerpa.Program|ABCD1246
+2021-04-10 11:21:07.9720|INFO|techforcerpa.Program|ABCD1246
+2021-04-10 11:21:07.9780|INFO|techforcerpa.Program|7730
+2021-04-10 11:21:07.9820|INFO|techforcerpa.Program|08/05/2001
+2021-04-10 11:21:07.9860|INFO|techforcerpa.Program|08/05/2001
+2021-04-10 11:21:07.9900|INFO|techforcerpa.Program|TVSO
+2021-04-10 11:21:07.9930|INFO|techforcerpa.Program|4730
+2021-04-10 11:21:07.9970|INFO|techforcerpa.Program|3102024031
+2021-04-10 11:21:08.0010|INFO|techforcerpa.Program|3102024031  sub account
+2021-04-10 11:21:08.0050|INFO|techforcerpa.Program|0  project
+2021-04-10 11:21:08.0090|INFO|techforcerpa.Program|Executing javascript program
+2021-04-10 11:21:08.4279|INFO|techforcerpa.Program|dates = dates.trim()
+2021-04-10 11:21:08.4279|INFO|techforcerpa.Program|08052001
+2021-04-10 11:21:18.4472|INFO|techforcerpa.Program|wait 10
+2021-04-10 11:21:20.4823|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\dd0970d0-9893-11eb-a1f3-3102ea52607f.png
+2021-04-10 11:21:23.4925|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:21:27.5297|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\1c49c4c0-98f8-11eb-a77f-2fe05c3adf23.png
+2021-04-10 11:21:30.5359|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:21:30.5419|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:21:30.7164|INFO|techforcerpa.Program|vision Send, `pertopost`
+2021-04-10 11:21:32.7456|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:21:32.8478|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:21:36.8826|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:21:40.9159|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:21:41.0097|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:21:42.0301|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:21:42.1167|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:21:43.1350|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:21:43.2441|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:21:44.2673|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:21:44.3845|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:21:47.4137|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:21:47.5641|INFO|techforcerpa.Program|vision Send, `vendor_id`
+2021-04-10 11:21:50.5796|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:21:50.6985|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:21:51.7171|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:21:51.7171|INFO|techforcerpa.Program|Below is the vendor id
+2021-04-10 11:21:53.7451|INFO|techforcerpa.Program|Vendor id image not found
+2021-04-10 11:21:56.7619|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:21:56.8503|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:21:58.8765|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:21:58.9646|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:22:00.9828|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:22:01.0647|INFO|techforcerpa.Program|vision Send, ^a
+2021-04-10 11:22:01.1842|INFO|techforcerpa.Program|vision Send, {BackSpace}
+2021-04-10 11:22:03.2111|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:22:03.4643|INFO|techforcerpa.Program|vision Send, `Invoice_no`
+2021-04-10 11:22:04.4856|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:22:04.5866|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:22:04.5926|INFO|techforcerpa.Program|Below for loop is duplicate invoice popup
+2021-04-10 11:22:19.5994|INFO|techforcerpa.Program|wait 15
+2021-04-10 11:22:21.6160|INFO|techforcerpa.Program|Invoice number is duplicate
+2021-04-10 11:22:22.6350|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:22:24.6468|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:22:24.6468|INFO|techforcerpa.Program|08052001
+2021-04-10 11:22:24.9153|INFO|techforcerpa.Program|vision Send, `dates`
+2021-04-10 11:22:28.9367|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:22:29.0419|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:22:31.0517|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:22:31.1298|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:22:33.1511|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:22:33.2858|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:22:38.3149|INFO|techforcerpa.Program|wait 5
+2021-04-10 11:22:38.3149|INFO|techforcerpa.Program|Removing dollar
+2021-04-10 11:22:38.3149|INFO|techforcerpa.Program|Executing javascript program
+2021-04-10 11:22:38.7388|INFO|techforcerpa.Program|7730
+
+2021-04-10 11:22:38.7448|INFO|techforcerpa.Program|dollar_remove = dollar_remove.trim()
+2021-04-10 11:22:38.7498|INFO|techforcerpa.Program|7730
+2021-04-10 11:22:38.7588|INFO|techforcerpa.Program|Executing vision program
+2021-04-10 11:22:40.5800|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:22:40.6680|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:22:43.6988|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:22:43.6988|INFO|techforcerpa.Program|Below for loop is for duplicate amount popup
+2021-04-10 11:22:53.7177|INFO|techforcerpa.Program|wait 10
+2021-04-10 11:22:55.7388|INFO|techforcerpa.Program|Amount is duplicate
+2021-04-10 11:22:57.7525|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:23:00.7678|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:23:00.8558|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:01.8806|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:23:01.9678|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:02.9877|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:23:03.1205|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:04.1321|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:23:04.2193|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:05.2376|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:23:05.3313|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:06.3504|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:23:06.4386|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:07.4565|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:23:07.5508|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:08.5839|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:23:08.6720|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:14.7032|INFO|techforcerpa.Program|wait 6
+2021-04-10 11:23:14.8375|INFO|techforcerpa.Program|vision Send, `gl_acct`
+2021-04-10 11:23:17.8704|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:23:17.9723|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:21.9921|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:23:21.9971|INFO|techforcerpa.Program|Below Gl account is processing
+2021-04-10 11:23:24.0195|INFO|techforcerpa.Program|Gl account image not found
+2021-04-10 11:23:25.0398|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:23:29.0473|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:23:29.1357|INFO|techforcerpa.Program|vision Send, `proj`
+2021-04-10 11:23:33.1570|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:23:33.2580|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:37.2848|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:23:37.2945|INFO|techforcerpa.Program|Below Project is processing
+2021-04-10 11:23:39.3203|INFO|techforcerpa.Program|No duplicate project i
+2021-04-10 11:23:41.3342|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:23:44.3414|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:23:44.3484|INFO|techforcerpa.Program|3102024031
+2021-04-10 11:23:44.5729|INFO|techforcerpa.Program|vision Send, `sub`
+2021-04-10 11:23:48.6063|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:23:48.7147|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:23:52.7350|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:23:52.7402|INFO|techforcerpa.Program|Below Subacct is processing
+2021-04-10 11:23:54.7584|INFO|techforcerpa.Program|Sub account image not found
+2021-04-10 11:23:55.7755|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:23:58.7888|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:23:58.7888|INFO|techforcerpa.Program|7730
+2021-04-10 11:23:58.7978|INFO|techforcerpa.Program|Executing vision program
+2021-04-10 11:24:01.6583|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:24:05.6924|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\5ffe09f0-9872-11eb-b6ff-f1bb2bdd525b.png
+2021-04-10 11:24:09.7051|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:24:09.7111|INFO|techforcerpa.Program|API call to http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata with Content-Type:application/json
+2021-04-10 11:24:09.7274|INFO|techforcerpa.Program|{"message":"Record updated Successfully."}
+2021-04-10 11:24:15.7421|INFO|techforcerpa.Program|wait 6
+2021-04-10 11:24:17.7710|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\1b89f0f0-99d9-11eb-9ea9-ef1d4faf9153.png
+2021-04-10 11:24:23.7866|INFO|techforcerpa.Program|wait 6
+2021-04-10 11:24:23.7960|INFO|techforcerpa.Program|Move to next record
+2021-04-10 11:24:23.8050|INFO|techforcerpa.Program|799
+2021-04-10 11:24:23.8151|INFO|techforcerpa.Program|{"tableData":[],"data":[{"fieldName":"per_to_post","fieldValue":"12-2021","splitatexclude":false,"$hashKey":"object:684"},{"fieldName":"Monthly_invoice","fieldValue":[{"fieldName":"MONTHLY INVOICE","fieldValue":"The Village South, Inc."},{"fieldName":"INVOICE","fieldValue":""},{"fieldName":"Name","fieldValue":"The Village South, Inc.","$hashKey":"object:685"},{"fieldName":"Service Month","fieldValue":"August 2019"},{"fieldName":"Address","fieldValue":"401 NW 2 Ave."},{"fieldName":"Invoice No.","fieldValue":"ABCD1246","$hashKey":"object:686"},{"fieldName":"City","fieldValue":"Miami,"},{"fieldName":"State","fieldValue":"FL"},{"fieldName":"ZIP","fieldValue":"33128"},{"fieldName":"Phone","fieldValue":"305-455-0363"},{"fieldName":"Units","fieldValue":""}],"splitatexclude":true},{"fieldName":"Total","fieldValue":"$56,000","splitatexclude":false,"$hashKey":"object:687"},{"fieldName":"Date","fieldValue":" 09/06/2019","splitatexclude":false,"$hashKey":"object:688"},{"fieldName":"Vendor_id","fieldValue":"TVSO","splitatexclude":false,"$hashKey":"object:689"},{"fieldName":"G/L_Acct","fieldValue":"6036","splitatexclude":false,"$hashKey":"object:696"},{"fieldName":"Project","fieldValue":"0","splitatexclude":false,"$hashKey":"object:697"},{"fieldName":"Sub_acct","fieldValue":"1705-038-14-1","splitatexclude":false,"$hashKey":"object:698"},{"fieldName":"task","fieldValue":"0","splitatexclude":false,"$hashKey":"object:699"},{"fieldName":"Description","fieldValue":"August service","splitatexclude":false,"$hashKey":"object:700"}]}
+2021-04-10 11:24:25.8275|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:24:25.8275|INFO|techforcerpa.Program|{"tableData":[],"data":[{"fieldName":"per_to_post","fieldValue":"12-2021","splitatexclude":false,"$hashKey":"object:684"},{"fieldName":"Monthly_invoice","fieldValue":[{"fieldName":"MONTHLY INVOICE","fieldValue":"The Village South, Inc."},{"fieldName":"INVOICE","fieldValue":""},{"fieldName":"Name","fieldValue":"The Village South, Inc.","$hashKey":"object:685"},{"fieldName":"Service Month","fieldValue":"August 2019"},{"fieldName":"Address","fieldValue":"401 NW 2 Ave."},{"fieldName":"Invoice No.","fieldValue":"ABCD1246","$hashKey":"object:686"},{"fieldName":"City","fieldValue":"Miami,"},{"fieldName":"State","fieldValue":"FL"},{"fieldName":"ZIP","fieldValue":"33128"},{"fieldName":"Phone","fieldValue":"305-455-0363"},{"fieldName":"Units","fieldValue":""}],"splitatexclude":true},{"fieldName":"Total","fieldValue":"$56,000","splitatexclude":false,"$hashKey":"object:687"},{"fieldName":"Date","fieldValue":" 09/06/2019","splitatexclude":false,"$hashKey":"object:688"},{"fieldName":"Vendor_id","fieldValue":"TVSO","splitatexclude":false,"$hashKey":"object:689"},{"fieldName":"G/L_Acct","fieldValue":"6036","splitatexclude":false,"$hashKey":"object:696"},{"fieldName":"Project","fieldValue":"0","splitatexclude":false,"$hashKey":"object:697"},{"fieldName":"Sub_acct","fieldValue":"1705-038-14-1","splitatexclude":false,"$hashKey":"object:698"},{"fieldName":"task","fieldValue":"0","splitatexclude":false,"$hashKey":"object:699"},{"fieldName":"Description","fieldValue":"August service","splitatexclude":false,"$hashKey":"object:700"}]}.data
+2021-04-10 11:24:27.8405|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:24:27.8465|INFO|techforcerpa.Program|Executing javascript program
+2021-04-10 11:24:28.2158|INFO|techforcerpa.Program|! True
+2021-04-10 11:24:28.2218|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:24:28.2318|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:24:28.2378|INFO|techforcerpa.Program|August service      Description of the field
+2021-04-10 11:24:28.2438|INFO|techforcerpa.Program|ABCD1246
+2021-04-10 11:24:28.2478|INFO|techforcerpa.Program|ABCD1246
+2021-04-10 11:24:28.2518|INFO|techforcerpa.Program|$56,000
+2021-04-10 11:24:28.2568|INFO|techforcerpa.Program| 09/06/2019
+2021-04-10 11:24:28.2598|INFO|techforcerpa.Program| 09/06/2019
+2021-04-10 11:24:28.2648|INFO|techforcerpa.Program|TVSO
+2021-04-10 11:24:28.2688|INFO|techforcerpa.Program|6036
+2021-04-10 11:24:28.2718|INFO|techforcerpa.Program|1705-038-14-1
+2021-04-10 11:24:28.2778|INFO|techforcerpa.Program|1705-038-14-1  sub account
+2021-04-10 11:24:28.2828|INFO|techforcerpa.Program|0  project
+2021-04-10 11:24:28.2868|INFO|techforcerpa.Program|Executing javascript program
+2021-04-10 11:24:28.6848|INFO|techforcerpa.Program|dates = dates.trim()
+2021-04-10 11:24:28.6908|INFO|techforcerpa.Program|09062019
+2021-04-10 11:24:38.7094|INFO|techforcerpa.Program|wait 10
+2021-04-10 11:24:40.7241|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\dd0970d0-9893-11eb-a1f3-3102ea52607f.png
+2021-04-10 11:24:43.7378|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:24:45.7600|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\1c49c4c0-98f8-11eb-a77f-2fe05c3adf23.png
+2021-04-10 11:24:48.7674|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:24:48.7734|INFO|techforcerpa.Program|12-2021
+2021-04-10 11:24:48.9694|INFO|techforcerpa.Program|vision Send, `pertopost`
+2021-04-10 11:24:50.9951|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:24:51.1232|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:24:55.1382|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:24:59.1740|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:24:59.2605|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:25:00.2785|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:25:00.3579|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:25:01.3920|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:25:01.4951|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:25:02.5136|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:25:02.6366|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:25:05.6444|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:25:05.7734|INFO|techforcerpa.Program|vision Send, `vendor_id`
+2021-04-10 11:25:08.7917|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:25:08.8782|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:25:09.8964|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:25:09.8964|INFO|techforcerpa.Program|Below is the vendor id
+2021-04-10 11:25:11.9269|INFO|techforcerpa.Program|Vendor id image not found
+2021-04-10 11:25:14.9400|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:25:15.0436|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:25:17.0616|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:25:17.1748|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:25:19.1957|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:25:19.3091|INFO|techforcerpa.Program|vision Send, ^a
+2021-04-10 11:25:19.3929|INFO|techforcerpa.Program|vision Send, {BackSpace}
+2021-04-10 11:25:21.4105|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:25:21.5977|INFO|techforcerpa.Program|vision Send, `Invoice_no`
+2021-04-10 11:25:22.6130|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:25:22.6937|INFO|techforcerpa.Program|vision Send, {Tab}
+2021-04-10 11:25:22.7093|INFO|techforcerpa.Program|Below for loop is duplicate invoice popup
+2021-04-10 11:25:37.7252|INFO|techforcerpa.Program|wait 15
+2021-04-10 11:25:41.7445|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\a1bc7cb0-9867-11eb-8919-9dcb7bb3ca7d.png
+2021-04-10 11:25:44.7612|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:25:46.7795|INFO|techforcerpa.Program|screenshot C:\Users\citruseworker1\Desktop\ALL_FILES\Lessinvno\error1.png
+2021-04-10 11:25:52.7852|INFO|techforcerpa.Program|wait 6
+2021-04-10 11:25:52.7912|INFO|techforcerpa.Program|ABCD1246
+2021-04-10 11:25:54.3009|INFO|techforcerpa.Program|vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" " Invoice number is not valid" "Hi Odalis `, \n \n               Please find below duplicate invoice number while posting to Solomon  application  \n             \n         `Invoice_no``" "C:\Users\citruseworker1\Desktop\ALL_FILES\Lessinvno\error1.png" "`cc`" """,,hide
+2021-04-10 11:25:56.3419|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:25:56.3482|INFO|techforcerpa.Program|Deleted Successfully
+2021-04-10 11:25:56.3532|INFO|techforcerpa.Program|Create folder at C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Lessinvno and overwrite if exists
+2021-04-10 11:25:56.4298|INFO|techforcerpa.Program|vision Send, {Right}
+2021-04-10 11:25:56.5633|INFO|techforcerpa.Program|vision Send, {Enter}
+2021-04-10 11:25:58.5873|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:26:00.6017|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\09c7ec90-9868-11eb-8eaa-fbceeadea3d7.png
+2021-04-10 11:26:06.6149|INFO|techforcerpa.Program|wait 6
+2021-04-10 11:26:06.7243|INFO|techforcerpa.Program|vision Send, {Enter}
+2021-04-10 11:26:13.7439|INFO|techforcerpa.Program|wait 7
+2021-04-10 11:26:13.7504|INFO|techforcerpa.Program|API call to http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata with Content-Type:application/json
+2021-04-10 11:26:13.7724|INFO|techforcerpa.Program|{"message":"Record updated Successfully."}
+2021-04-10 11:26:15.7974|INFO|techforcerpa.Program|Invoice inside image not found
+2021-04-10 11:26:20.8096|INFO|techforcerpa.Program|wait 5
+2021-04-10 11:26:22.8304|INFO|techforcerpa.Program|present C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\50214230-9873-11eb-9f95-8ff87576a934.png
+2021-04-10 11:26:25.8481|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:26:27.8656|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\73c56770-9873-11eb-a953-c1da283ed70c.png
+2021-04-10 11:26:27.8706|INFO|techforcerpa.Program|Executing vision program
+2021-04-10 11:26:29.1488|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:26:31.1847|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:26:31.1947|INFO|techforcerpa.Program|002718
+2021-04-10 11:26:32.7485|INFO|techforcerpa.Program|vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" "Solomon voucher entries with batch `batchno` for your verification" "Hi Odalis `, \n \nPlease find Batch  `batchno`  created for voucher entries in the Solomon application for your verification and posting." "" "`cc`" """,,hide
+2021-04-10 11:26:35.7782|INFO|techforcerpa.Program|wait 3
+2021-04-10 11:26:39.8133|INFO|techforcerpa.Program|click C:/Users/citruseworker1/Desktop/Chn_flowa/solomon_application_enter\d175c770-9873-11eb-a068-d71f1bc2d17f.png
+2021-04-10 11:26:41.8240|INFO|techforcerpa.Program|wait 2
+2021-04-10 11:26:43.8483|INFO|techforcerpa.Program|0  continue for next batch
+2021-04-10 11:26:47.8674|INFO|techforcerpa.Program|wait 4
+2021-04-10 11:26:47.9727|INFO|techforcerpa.Program|vision Send, !{F4}
+2021-04-10 11:26:48.0644|INFO|techforcerpa.Program|vision Send, #r
+2021-04-10 11:26:49.0996|INFO|techforcerpa.Program|wait 1
+2021-04-10 11:26:49.3510|INFO|techforcerpa.Program|vision Send, logoff.exe
+2021-04-10 11:26:49.4972|INFO|techforcerpa.Program|vision Send, {Enter}
+2021-04-10 11:26:49.5092|INFO|techforcerpa.Program|Process Ended

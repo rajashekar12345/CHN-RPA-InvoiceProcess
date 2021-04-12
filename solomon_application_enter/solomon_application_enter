@@ -1,0 +1,593 @@
+
+tabledata1 = []
+table_data = []
+value = ""
+value1 = ""
+session_id = ""
+asgn1 = ""
+Invoice_no = ""
+total = ""
+date = []
+gl_acct = ""
+value2 = ""
+vendor_id = ""
+sub = ""
+proj = ""
+dates = ""
+pertopost = ""
+dollar_remove = ""
+to = "kbalapanuru@techforce.ai"
+cc = "kabburi@techforce.ai;mmamidi@techforce.ai;mkatta@techforce.ai"
+js begin
+var sys = require('system')
+try{ console.log(dirPath) }catch(e) {sys.args.forEach(function (param, idx) {if (param == "--cli") {dirPath = sys.args[idx + 1].split('\\').slice(0,-1).join('/')+"/"}})}
+js finish
+// Stage-1 starts here
+try
+{
+db_token ="eyJob3N0IjoiMTAuNTAuMTExLjExIiwidXNlcm5hbWUiOiJ0ZWNoZm9yY2UiLCJwYXNzd29yZCI6IkB0MmNING9yYzMhIiwicG9ydCI6IiIsImRhdGFiYXNlIjoidGVjaGZvcmNlX2RldiIsInR5cGUiOiJtc3NxbCIsInNpZCI6IiIsInNlcnZpY2VuYW1lIjoiIiwic2VsZWN0b3JUeXBlIjoic3FsU2VsZWN0b3IifQ=="
+api_config = {method:'POST', header:['Content-Type:application/json'], body:{'db_token':'`db_token`', 'query':'select [perToPost]
+from [dbo].[INVOICE_EX_DATA] where processFlag = 'Approved'  group by [perToPost] 
+', 'with_column_names':false}}
+                       api http://localhost:8002/api/v1/new_query
+                       table_data = api_json.data
+wait 1
+echo table_data.length
+echo table_data
+wait 5
+`value` = table_data.length
+echo value
+if `value` more than 0 
+{
+vision Run, "C:\\Users\\citruseworker1\\Desktop\\Solomon.rdp"
+for a from 0 to 15
+{
+wait 18
+if present('`dirPath`44aa91b0-988a-11eb-89d1-c3ed030e9b8a.png')
+{
+wait 5
+vision Send, #s
+wait 2
+SendKeysToVM("Microsoft Dynamic SL")
+vision Send, {Enter}
+wait 10
+for b from 0 to 15
+{
+wait 10
+if present('`dirPath`1720c260-9884-11eb-ab7a-65902ed5e2b5.png')
+{
+wait 6
+vision Send, {Tab}
+vision Send, {Down}
+vision Send, {Enter}
+wait 17
+echo click to voucher entry
+echo table_data.length
+for q from 0 to `table_data.length-1`
+{
+echo table_data[q][0]
+db_token ="eyJob3N0IjoiMTAuNTAuMTExLjExIiwidXNlcm5hbWUiOiJ0ZWNoZm9yY2UiLCJwYXNzd29yZCI6IkB0MmNING9yYzMhIiwicG9ydCI6IiIsImRhdGFiYXNlIjoidGVjaGZvcmNlX2RldiIsInR5cGUiOiJtc3NxbCIsInNpZCI6IiIsInNlcnZpY2VuYW1lIjoiIiwic2VsZWN0b3JUeXBlIjoic3FsU2VsZWN0b3IifQ=="
+api_config = {method:'POST', header:['Content-Type:application/json'], body:{'db_token':'`db_token`', 'query':'
+
+SELECT [sessionId]
+      ,[id]
+      ,[fileId]
+      ,[fileName]
+      ,[extractedValue]
+      ,[pendingWith]
+      ,[processFlag]
+      ,[commentsArr]
+      ,[updateDate]
+      ,[months]
+      ,[perToPost]
+      ,[split_pdf]
+      ,[class_Id]
+  FROM [dbo].[INVOICE_EX_DATA]
+  where processFlag like 'Approved' and perToPost like '`table_data[q][0]`'
+  
+
+', 'with_column_names':false}}
+                       api http://localhost:8002/api/v1/new_query
+                       tabledata1 = api_json.data
+wait 1
+echo tabledata1.length
+`value2` = tabledata1.length
+wait 2
+echo value2
+if present('`dirPath`aca89040-98db-11eb-ba6e-31d2f7857852.png')
+{
+wait 8
+click `dirPath`9d206480-9855-11eb-84d5-db39cf270def.png
+wait 20
+for p from 0 to `tabledata1.length-1`
+{
+try
+{
+`session_id` = tabledata1[p][0]
+echo session_id
+echo tabledata1[p][4]
+`asgn1` = tabledata1[p][4]
+wait 2
+echo asgn1.data
+wait 2
+var v1 = JSON.parse(`asgn1`);
+v2 = JSON.stringify(v1)
+console.log(v2);
+echo ! js_json.data[1].splitatexclude
+echo js_json.data[0].fieldValue
+`pertopost` = js_json.data[0].fieldValue
+echo pertopost
+echo js_json.data[9].fieldValue      Description of the field
+echo js_json.data[1].fieldValue[5].fieldValue
+`Invoice_no` = js_json.data[1].fieldValue[5].fieldValue
+echo Invoice_no
+`total` = js_json.data[2].fieldValue
+echo total
+echo js_json.data[3].fieldValue
+`date` = js_json.data[3].fieldValue
+echo date
+`vendor_id` = js_json.data[4].fieldValue
+echo vendor_id
+`gl_acct` = js_json.data[5].fieldValue
+echo gl_acct
+echo js_json.data[7].fieldValue
+`sub` = js_json.data[7].fieldValue
+echo sub  sub account
+`proj` = js_json.data[6].fieldValue
+echo proj  project
+var dt = `date`
+var dt1 = dt.split("/")
+var dd = dt1[1]
+var mm = dt1[0]
+var yy = dt1[2]
+var dt2 = mm+dd.trim()+yy
+console.log(dt2);
+`dates` = js_result
+dates = dates.trim()
+echo dates
+wait 10
+if present('`dirPath`dd0970d0-9893-11eb-a1f3-3102ea52607f.png')
+{
+wait 3
+click `dirPath`1c49c4c0-98f8-11eb-a77f-2fe05c3adf23.png
+wait 3
+echo pertopost
+vision Send, `pertopost`
+wait 2
+vision Send, {Tab}
+wait 4
+if present('`dirPath`ed0a9c60-9885-11eb-bd30-6be30a5be868.png')
+{
+wait 2
+click `dirPath`0c4ec2e0-9886-11eb-a053-6f4a73399fb5.png
+}
+else
+{
+}
+}
+else
+{
+echo Image not recognized  pertopost
+}
+wait 2
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 3
+vision Send, `vendor_id`
+wait 3
+vision Send, {Tab}
+wait 1
+echo Below is the vendor id
+if present('`dirPath`c432bcf0-98ee-11eb-9651-27b6e990f54a.png')
+{
+wait 3
+screenshot C:\Users\citruseworker1\Desktop\ALL_FILES\Transaction\IDerror.jpg
+wait 10
+vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" " Vendor id is not valid" "Hi Odalis `, \n \n    The vendor id is not valid \n   \n      `Invoice_no`     \n \n " "C:\Users\citruseworker1\Desktop\ALL_FILES\Transaction\IDerror.jpg" "`cc`" """,,hide
+wait 3
+vision Send, {Enter}
+wait 3
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{"folderPath":'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Transaction',"ifExists":"overwrite"}};
+api http://localhost:5555/v1/rpa/metadata/folders/deleteFolder
+echo api_result
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{'folderPath':'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Transaction', "ifExists":'overwrite'}};
+api http://localhost:5555/v1/rpa/metadata/folders/createFolder
+echo api_result
+wait 3
+click `dirPath`8cb81b70-989f-11eb-96cf-e935b39e82e8.png
+wait 2
+vision Send, {Enter}
+wait 4
+api_config = { method:'POST', header:["Content-Type:application/json"],body:{'sessionId':`session_id`,'processFlag':'Errored'}}
+api http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata
+echo api_result
+echo api_json
+wait 4
+continue
+}
+else
+{
+echo Vendor id image not found
+}
+wait 3
+vision Send, {Tab}
+wait 2
+vision Send, {Tab}
+wait 2
+vision Send, ^a
+vision Send, {BackSpace}
+wait 2
+vision Send, `Invoice_no`
+wait 1
+vision Send, {Tab}
+echo Below for loop is duplicate invoice popup
+wait 15
+if present('`dirPath`a1bc7cb0-9867-11eb-8919-9dcb7bb3ca7d.png')
+{
+wait 3
+screenshot C:\Users\citruseworker1\Desktop\ALL_FILES\Lessinvno\error1.png
+wait 6
+echo Invoice_no
+vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" " Invoice number is not valid" "Hi Odalis `, \n \n               Please find below duplicate invoice number while posting to Solomon  application  \n             \n         `Invoice_no``" "C:\Users\citruseworker1\Desktop\ALL_FILES\Lessinvno\error1.png" "`cc`" """,,hide
+wait 2
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{"folderPath":'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Lessinvno',"ifExists":"overwrite"}};
+api http://localhost:5555/v1/rpa/metadata/folders/deleteFolder
+echo api_result
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{'folderPath':'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Lessinvno', "ifExists":'overwrite'}};
+api http://localhost:5555/v1/rpa/metadata/folders/createFolder
+echo api_result
+vision Send, {Right}
+vision Send, {Enter}
+wait 2
+click `dirPath`09c7ec90-9868-11eb-8eaa-fbceeadea3d7.png
+wait 6
+vision Send, {Enter}
+wait 7
+api_config = { method:'POST', header:["Content-Type:application/json"],body:{'sessionId':`session_id`,'processFlag':'Duplicate'}}
+api http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata
+echo api_result
+echo api_json
+if present('`dirPath`b124cf60-9874-11eb-b972-8521e403220d.png')
+{
+wait 1
+vision Send, {Left}
+wait 1
+vision Send, {Enter}
+}
+else
+{
+echo Invoice inside image not found
+}
+continue
+}
+else
+{
+echo Invoice number is duplicate
+}
+wait 1
+wait 2
+echo dates
+vision Send, `dates`
+wait 4
+vision Send, {Tab}
+wait 2
+vision Send, {Tab}
+wait 2
+vision Send, {Tab}
+wait 5
+echo Removing dollar
+var n1 = "`total`";
+
+var n2 = n1.replace("$", "");
+
+var n3 = n2.replace("'", "");
+
+var n4 = n3.replace("'", "");
+
+console.log(n4);
+
+echo js_result
+`dollar_remove` = js_result
+dollar_remove = dollar_remove.trim()
+echo dollar_remove
+SendKeysToVM("`dollar_remove`")
+wait 1
+vision Send, {Tab}
+wait 3
+echo Below for loop is for duplicate amount popup
+wait 10
+if present('`dirPath`21619250-986a-11eb-930e-e1beeee2fea0.png')
+{
+wait 3
+vision Send, {Right}
+vision Send, {Enter}
+wait 1
+}
+else
+{
+echo Amount is duplicate
+}
+wait 2
+wait 3
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 1
+vision Send, {Tab}
+wait 6
+vision Send, `gl_acct`
+wait 3
+vision Send, {Tab}
+wait 4
+echo Below Gl account is processing
+if present('`dirPath`ffc8c610-986c-11eb-83c2-79ed547dc84b.png')
+{
+wait 3
+screenshot C:\Users\citruseworker1\Desktop\ALL_FILES\Lowsubaact\sabacct.png
+wait 6
+echo GLAcct processing
+vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" "GL Account is not valid" "Hi Odalis `, \n \n               Please find below the below given GL Account  is not allow in solomon application  \n \n`Invoice_no`" "C:\Users\citruseworker1\Desktop\ALL_FILES\Lowsubaact\sabacct.png" "`cc`" """,,hide
+wait 2
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{"folderPath":'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Lowsubaact',"ifExists":"overwrite"}};
+api http://localhost:5555/v1/rpa/metadata/folders/deleteFolder
+echo api_result
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{'folderPath':'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Lowsubaact', "ifExists":'overwrite'}};
+api http://localhost:5555/v1/rpa/metadata/folders/createFolder
+echo api_result
+vision Send, {Enter}
+wait 2
+click `dirPath`46418b90-986d-11eb-bbe2-471a317ee2a2.png
+wait 6
+vision Send, {Enter}
+wait 10
+if present('`dirPath`7374eb90-9875-11eb-8d6d-cb0ff85917f1.png')
+{
+wait 1
+vision Send, {Left}
+wait 1
+vision Send, {Enter}
+}
+else
+{
+echo GL Account Im inside image not found
+}
+wait 6
+api_config = { method:'POST', header:["Content-Type:application/json"],body:{'sessionId':`session_id`,'processFlag':'Duplicate'}}
+api http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata
+echo api_result
+echo api_json
+continue
+}
+else
+{
+echo Gl account image not found
+}
+wait 1
+wait 4
+vision Send, `proj`
+wait 4
+vision Send, {Tab}
+wait 4
+echo Below Project is processing
+if present('`dirPath`beb17450-986d-11eb-84da-f58b098b0bc1.png')
+{
+wait 3
+screenshot C:\Users\citruseworker1\Desktop\ALL_FILES\lowProj\proj.png
+wait 6
+echo Proj processing
+vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" "Project Id is not valid" "Hi Odalis `, \n \n               Please find below the below given  Project  is not allow in solomon application  \n \n                      `Invoice_no`           " "C:\Users\citruseworker1\Desktop\ALL_FILES\lowProj\proj.png" "`cc`" """,,hide
+wait 2
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{"folderPath":'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\lowProj',"ifExists":"overwrite"}};
+api http://localhost:5555/v1/rpa/metadata/folders/deleteFolder
+echo api_result
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{'folderPath':'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\lowProj', "ifExists":'overwrite'}};
+api http://localhost:5555/v1/rpa/metadata/folders/createFolder
+echo api_result
+vision Send, {Enter}
+wait 2
+click `dirPath`c5d04f80-986e-11eb-a2d8-f97a1da3052d.png
+wait 6
+vision Send, {Enter}
+wait 15
+if present('`dirPath`cf38e4e0-9875-11eb-bf92-05e4b4dfa96b.png')
+{
+wait 1
+vision Send, {Left}
+wait 1
+vision Send, {Enter}
+}
+else
+{
+echo Project inside image not fount
+}
+wait 6
+api_config = { method:'POST', header:["Content-Type:application/json"],body:{'sessionId':`session_id`,'processFlag':'Duplicate'}}
+api http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata
+echo api_result
+echo api_json
+continue
+}
+else
+{
+echo No duplicate project i
+}
+wait 2
+wait 3
+echo sub
+vision Send, `sub`
+wait 4
+vision Send, {Tab}
+wait 4
+echo Below Subacct is processing
+if present('`dirPath`cfc9a570-9870-11eb-8351-cf226e89de59.png')
+{
+wait 3
+screenshot C:\Users\citruseworker1\Desktop\ALL_FILES\Lowsub1\Error.png
+wait 6
+echo Sub account processing
+vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" "Sub A/c is not valid" "Hi Odalis `, \n \n               Please find below the below given  Project  is not allow in solomon application  \n \n`Invoice_no`" "C:\Users\citruseworker1\Desktop\ALL_FILES\Lowsub1\Error.png" "`cc`" """,,hide
+wait 2
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{"folderPath":'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Lowsub1',"ifExists":"overwrite"}};
+api http://localhost:5555/v1/rpa/metadata/folders/deleteFolder
+echo api_result
+api_config = { method:'POST', header:['Content-Type: application/json','Accept: application/json'],  body:{'folderPath':'C:\\Users\\citruseworker1\\Desktop\\ALL_FILES\\Lowsub1', "ifExists":'overwrite'}};
+api http://localhost:5555/v1/rpa/metadata/folders/createFolder
+echo api_result
+vision Send, {Enter}
+wait 2
+click `dirPath`026e5150-9872-11eb-b913-2da7273b3d9e.png
+wait 6
+vision Send, {Enter}
+wait 15
+if present('`dirPath`4394f310-9876-11eb-9fab-fdd310a2d96f.png')
+{
+wait 1
+vision Send, {Left}
+wait 1
+vision Send, {Enter}
+}
+else
+{
+echo Sub account inside image not found
+}
+api_config = { method:'POST', header:["Content-Type:application/json"],body:{'sessionId':`session_id`,'processFlag':'Duplicate'}}
+api http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata
+echo api_result
+echo api_json
+continue
+}
+else
+{
+echo Sub account image not found
+}
+wait 1
+wait 3
+echo total
+SendKeysToVM("`dollar_remove`")
+wait 2
+click `dirPath`5ffe09f0-9872-11eb-b6ff-f1bb2bdd525b.png
+wait 4
+api_config = { method:'POST', header:["Content-Type:application/json"],body:{'sessionId':`session_id`,'processFlag':'Processed'}}
+api http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata
+echo api_result
+echo api_json
+wait 6
+click `dirPath`1b89f0f0-99d9-11eb-9ea9-ef1d4faf9153.png
+wait 8
+vision Send, {Right}
+wait 1
+vision Send, {Enter}
+echo Move to next record
+}
+catch(e)
+{
+echo Something wrong the above flow     In Batch1 data
+echo session_id
+vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" "Entered wrong data in extracted fields" "Hi Odalis `, \n \nThe above data is invalid please find the below sessionid  \n \n`session_id` \n" "" "`cc`" """,,hide
+wait 2
+click `dirPath`655dca80-99e8-11eb-84ab-4f1f1463d1dc.png
+wait 6
+vision Send, {Enter}
+wait 15
+vision Send, {Left}
+vision Send, {Enter}
+api_config = { method:'POST', header:["Content-Type:application/json"],body:{'sessionId':`session_id`,'processFlag':'Errored'}}
+api http://10.50.111.201:5000/v1/chnapi/exData/updateExtractionata
+echo api_result
+echo api_json
+continue
+}
+}
+wait 6
+if present('`dirPath`50214230-9873-11eb-9f95-8ff87576a934.png')
+{
+wait 3
+click `dirPath`73c56770-9873-11eb-a953-c1da283ed70c.png
+Send, {ctrl down}
+Sleep, 40
+Send, {c down}
+Sleep, 40
+Send, {c up}
+Sleep, 40
+Send, {ctrl up}
+wait 1
+clipboard batchno
+wait 2
+echo batchno
+vision RunWait %ComSpec% /c ""C:\Users\citruseworker1\Desktop\Version\Techforce.ai Studio\resources\static\Configs\outlook\sendMail\SendMail.exe" "`to`" "Solomon voucher entries with batch `batchno` for your verification" "Hi Odalis `, \n \nPlease find Batch  `batchno`  created for voucher entries in the Solomon application for your verification and posting." "" "`cc`" """,,hide
+wait 3
+click `dirPath`d175c770-9873-11eb-a068-d71f1bc2d17f.png
+wait 2
+if present('`dirPath`f9868e40-9876-11eb-a88a-6dd7fb92279c.png')
+{
+wait 2
+vision Send, {Right}
+vision Send, {Enter}
+}
+else
+{
+}
+}
+else
+{
+echo Batch no not generated
+click `dirPath`3f7c9690-9874-11eb-ba04-c91e9cb33c7e.png
+wait 2
+vision Send, {Right}
+vision Send, {Enter}
+continue
+}
+}
+else
+{
+echo The vou
+}
+echo [q]  continue for next batch
+continue
+echo After the continue statement
+}
+wait 4
+vision Send, !{F4}
+vision Send, #r
+wait 1
+vision Send, logoff.exe
+vision Send, {Enter}
+break
+}
+else
+{
+echo application image not found
+}
+}
+break
+}
+else
+{
+echo Solomon Windows image not found
+}
+}
+}
+else
+{
+echo There no approved records
+}
+}
+catch(e)
+{
+echo Some thing wrong main flow
+}
